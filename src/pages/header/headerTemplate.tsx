@@ -8,7 +8,7 @@ const HeaderTemplate = () => {
     return (
         <div className="">
             <div className="dFlex justifyContent gap-2 padding-20">
-                <img className="imageLogo" src={Logo} />
+                <img className="imageLogo" src={Logo} alt=""/>
                 <div className="descWidth">We offer safe, clean, and purified water and for your convenience, we will pick it up and deliver it to your doorstep.</div>
             </div>
             <NavigationBar />
